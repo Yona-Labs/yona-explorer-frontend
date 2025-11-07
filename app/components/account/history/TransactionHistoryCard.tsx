@@ -36,6 +36,7 @@ export function TransactionHistoryCard({ address }: { address: string }) {
     if (!history) {
         return null;
     }
+    console.log('history', history);
 
     if (history?.data === undefined) {
         if (history.status === FetchStatus.Fetching) {

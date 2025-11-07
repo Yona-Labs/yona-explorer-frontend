@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+/* eslint-disable sort-keys-fix/sort-keys-fix */
 'use client';
 
 import * as Cache from '@providers/cache';
@@ -128,14 +130,29 @@ async function fetchAccountHistory(
         url,
     });
 
-    let status;
-    let history;
+    let status: FetchStatus;
+    let history:
+        | {
+              fetched: Awaited<ReturnType<Connection['getSignaturesForAddress']>>;
+              foundOldest: boolean;
+          }
+        | undefined;
+
     try {
         const connection = new Connection(url);
-        const fetched = await connection.getConfirmedSignaturesForAddress2(pubkey, options);
+
+        // RPC обычно возвращает максимум 1000 записей за вызов
+        const limit = Math.min(Math.max(options.limit ?? 0, 1), 1000);
+
+        const fetched = await connection.getSignaturesForAddress(pubkey, {
+            before: options.before,
+            limit,
+            // commitment: 'confirmed', // ближе к старому поведению getConfirmed*
+        });
+
         history = {
             fetched,
-            foundOldest: fetched.length < options.limit,
+            foundOldest: fetched.length < limit,
         };
         status = FetchStatus.Fetched;
     } catch (error) {
@@ -145,11 +162,15 @@ async function fetchAccountHistory(
         status = FetchStatus.FetchFailed;
     }
 
-    let transactionMap;
+    let transactionMap: any | undefined;
     if (fetchTransactions && history?.fetched) {
         try {
-            const signatures = history.fetched.map(signature => signature.signature).concat(additionalSignatures || []);
-            transactionMap = await fetchParsedTransactions(url, signatures);
+            // Склейка + дедуп по сигнатурам, чтобы не дергать лишние запросы
+            const primary = history.fetched.map(s => s.signature);
+            const extra = additionalSignatures ?? [];
+            const all = Array.from(new Set([...primary, ...extra]));
+
+            transactionMap = await fetchParsedTransactions(url, all);
         } catch (error) {
             if (cluster !== Cluster.Custom) {
                 console.error(error, { url });
