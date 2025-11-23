@@ -6,7 +6,6 @@ const SUPPLY_ALIASES = ['accounts', 'accounts/top'];
 const nextConfig = {
   experimental: {
     appDir: true,
-    disableHMR: true,
   },
   images: {
     remotePatterns: [
