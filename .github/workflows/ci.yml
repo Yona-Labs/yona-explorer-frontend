@@ -1,6 +1,6 @@
 on:
   push:
-    branches: [ docker ]
+    branches: [ main ]
 
 env:
   PROJECT_NAME: yona-explorer-frontend
