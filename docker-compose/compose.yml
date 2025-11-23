@@ -23,6 +23,8 @@ services:
     <<: [ *common-network, *common-dns, *common-logging, *graceful-stop, *common-restart ]
     hostname: explorer
     image: $EXPLORER_IMAGE
+    ports:
+      - 127.0.0.1:3000:3000
     sysctls:
       net.ipv6.conf.all.disable_ipv6: 1
   nginx:
