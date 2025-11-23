@@ -1,0 +1,38 @@
+x-common-dns: &common-dns
+  dns: 8.8.8.8
+  dns_opt: [ 'ndots:0' ]
+x-common-network: &common-network
+  networks:
+    - common
+x-network-host: &network-host
+  network_mode: host
+x-common-restart: &common-restart
+  restart: on-failure:3
+x-graceful-stop: &graceful-stop
+  stop_grace_period: 2m
+  stop_signal: SIGTERM
+x-common-logging: &common-logging
+  logging:
+    driver: "json-file"
+    options:
+      max-size: "1g"
+      max-file: "7"
+
+services:
+  explorer:
+    <<: [ *common-network, *common-dns, *common-logging, *graceful-stop, *common-restart ]
+    hostname: explorer
+    image: $EXPLORER_IMAGE
+    sysctls:
+      net.ipv6.conf.all.disable_ipv6: 1
+  nginx:
+    <<: [ *network-host, *common-dns, *common-logging, *common-restart ]
+    hostname: nginx
+    image: nginx:alpine
+    volumes:
+      - ./config/nginx:/etc/nginx/conf.d
+      - /etc/letsencrypt:/etc/letsencrypt
+
+networks:
+  common:
+    name: ${COMPOSE_PROJECT_NAME}
