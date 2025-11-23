@@ -20,7 +20,7 @@ FROM base AS builder
 
 ARG NEXT_PUBLIC_MAINNET_RPC_URL="https://api.mainnet-beta.solana.com" \
     NEXT_PUBLIC_TESTNET_RPC_URL="https://api.testnet.solana.com" \
-    NEXT_PUBLIC_DEVNET_RPC_URL="http://v01.ll.yona.network:8899"
+    NEXT_PUBLIC_DEVNET_RPC_URL="https://devnet-rpc.ll.yona.network"
 
 ENV NEXT_PUBLIC_MAINNET_RPC_URL=${NEXT_PUBLIC_MAINNET_RPC_URL} \
     NEXT_PUBLIC_TESTNET_RPC_URL=${NEXT_PUBLIC_TESTNET_RPC_URL} \
