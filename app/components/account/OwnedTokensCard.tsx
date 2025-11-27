@@ -50,7 +50,7 @@ export function OwnedTokensCard({ address }: { address: string }) {
     if (fetching && (tokens === undefined || tokens.length === 0)) {
         return <LoadingCard message="Loading token holdings" />;
     } else if (tokens === undefined) {
-        return <ErrorCard retry={refresh} text="Failed to fetch token holdings" />;
+        return <ErrorCard retry={refresh} text="No data available" />;
     }
 
     if (tokens.length === 0) {
