@@ -44,7 +44,7 @@ export function clusterName(cluster: Cluster): string {
 
 export const MAINNET_BETA_URL = 'https://api.mainnet-beta.solana.com';
 export const TESTNET_URL = 'https://api.testnet.solana.com';
-export const DEVNET_URL = 'https://devnet-rpc.yona.network';
+export const DEVNET_URL = 'https://devnet-rpc.yona.network';  // 'http://v01.ll.yona.network:8899';
 
 export function clusterUrl(cluster: Cluster, customUrl: string): string {
     const modifyUrl = (url: string): string => {
