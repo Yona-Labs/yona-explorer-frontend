@@ -1,6 +1,6 @@
 'use client';
 
-import Logo from '@img/logos-yona/dark-explorer-logo.svg';
+import Logo from '@img/logos-yona/hyper-dark.svg';
 import { useClusterPath } from '@utils/url';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -21,7 +21,7 @@ export function Navbar() {
         <nav className="navbar navbar-expand-md navbar-light">
             <div className="container">
                 <Link href={homePath}>
-                    <Image alt="Yona Explorer" height={22} src={Logo} width={115} />
+                    <Image alt="Hyper Explorer" height={43} src={Logo} width={185} className="" />
                 </Link>
 
                 <button className="navbar-toggler" type="button" onClick={() => setCollapse(value => !value)}>

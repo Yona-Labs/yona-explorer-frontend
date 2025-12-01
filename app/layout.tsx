@@ -11,9 +11,9 @@ import { Rubik } from 'next/font/google';
 import { Metadata } from 'next/types';
 
 export const metadata: Metadata = {
-    description: 'Inspect transactions, accounts, blocks, and more on the Yona blockchain',
+    description: 'Inspect transactions, accounts, blocks, and more on the Bitcoin Hyper blockchain',
     manifest: '/manifest.json',
-    title: 'Explorer | Yona',
+    title: 'Explorer | Bitcoin Hyper',
     viewport: {
         initialScale: 1,
         maximumScale: 1,

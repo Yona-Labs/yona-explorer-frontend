@@ -1,0 +1,803 @@
+
+
+
+https://www.sunduk.tv/payment/listopays/return?status=success&token=KCpeuYJOJGJ0xLaFjr1IeNs2UPYgkZGZ&pid=190797&uid=5293&message=
+
+https://www.sunduk.tv/payment/listopays/return?status=success&token=J47UWbWdpHmYi2B1dIsOxyfLKTP9cfG1&pid=190815&uid=33541&message=
+
+
+100000
+
+
+
+
+Мухаммад Dushanbe-Soft.tj, [24 нояб. 2020 г., 19:07:46]:
+----------------------------------------------
+SimpleTjPersos
+Mega33333
+API Key: DC9F638580AE75BE6249E4360484DBC6
+     0CD46925C1E82B2004B3A7EF46707614
+Код востановления: R88228
+Logged In
+{ shared_secret: 'FxSgQtdLf3tXGMwn0SnKe9L8ZBU=',
+  serial_number: '11169191466249484850',
+  revocation_code: 'R22418',
+  uri: 'otpauth://totp/Steam:simpletjpersos?secret=C4KKAQWXJN7XWVYYZQT5CKOKPPJPY
+ZAV&issuer=Steam',
+  server_time: '1490352239',
+  account_name: 'simpletjpersos',
+  token_gid: '7456fb62486794c',
+  identity_secret: 'YRRqs9Sc96mcjf3HZrszVp1g8a4=',
+  secret_1: 'c8ZbK/07eXGhgsk5qlB47/iqUgk=',
+  status: 1 }
+  
+  NfJvwohtiIM1bE1OqvsrwgEdFks=
+  mGbEWk3PhDLWd6cwm0tkK7z3VX0=
+Код всотавновления: R22418  
+STEAMID: 76561198373408228
+--------------------
+Muhammad.Yakubov911@gmail.com
+mather.19633
+-------------------------------
+Muhammad.Yakubov91@gmail.com
+mather.137465331
+
+fhohopvdtoiwrzaa
+----------------------
+
+  
+UrbanLex123123
+
+G2PAYID     
+Login: UrbanLex123@gmail.com
+Pass:  Mather.1963333
+Tel: 905504043
+
+---------------------------
+xdepattj1
+Qwertyuiop123321@
+API_KEY:  1BEF0981BA5F16B023972C631A52775E
+shared_secret: '5AXTvrtMo9fqtQ+XL/rnf/i6lgE='
+serial_number: '17944572119265636913'
+revocation_code: 'R38405'
+uri: 'otpauth://totp/Steam:xdepattj1?secret=4QC5HPV3JSR5P2VVB6LS76XHP74LVFQB&issuer=Steam',
+token_gid: 'd716fb624635894'
+identity_secret: '7xDRxztUeAUTHH9pFaFG+Sxd6iA='
+secret_1: 'JFrYYT8Wtp3SBtLB/eygj+h3Gj4='
+Код востановления R88750
+CVTC8
+Только API KEY у нас останется и все
+R72286
+После платежа 5$
+0. Получили стим API:KEY 338144
+1. BEF0981BA5F16B023972C631A52775E
+1. Мобильный аутентификатор отключили на номере 905504043
+2. Стим гуард включен
+3. Запустили скрипт и получили:
+D:\steam\node_steam>node r.js
+Logged In
+{ shared_secret: 'JNKDk6Y88o0Yqpuww+O8OaHhudo=',
+  serial_number: '963131691363122269',
+  revocation_code: 'R11267',
+  uri: 'otpauth://totp/Steam:xdepattj1?secret=ETJIHE5GHTZI2GFKTOYMHY54HGQ6DOO2&i
+ssuer=Steam',
+  server_time: '1490436949',
+  account_name: 'xdepattj1',
+  token_gid: 'd716fb624c5ee22',
+  identity_secret: '7eNsw2AeuOzSRb6o2dtd8R2+eBY=',
+  secret_1: '7CZDpz82CuMsDX03QtE1xX96efI=',
+  status: 1 }
+undefined
+4. Далее включаем мобильный аутетификатор на номер 905504043
+5. Код воставновление: R56192
+6. Все мобильный аутентификатор включен ждем 15 дней.
+---------------------------------------------------------------------------
+
+pdebattj2
+Asdfghjkl123321@
+Пополнили счет: 5$
+1. Получаем API_KEY: 165A8AD25CBA3052F67EC0D336D2351A
+2. Теперь ничего не будем делать.
+3. Стим Guard включен без мобильный аутентификации
+4. Далее ждем 15 дней, и сделаем следующее.
+5. Просто пропысываем API и смотрим, проект сам будет генерировать secret и identity_secret?
+6. Если генерирует то отлично, а если нет то сами будем генерировать его через скриптик и поставить вручную
+7. Далее активируем мобильный аутентификатор и проверяем будет ли работать или нет.
+ВОт и все так что будем ждать 15 дней.
+R80536 - Код востановления API
+
+--------------------------------------------
+
+zdebad3
+Zxcvbnm123321@
+-------------------------------------------
+[E-mail]
+yibanboy123@gmail.com
+Qwertyu123321@
+
+----------------------------------------------------------------------------------------------------
+
+[Steam Account 1 bot]
+zxvchay1
+Qwertyu123321@
+yibanboy123@gmail.com
++992905504043
+
+{"steamguard_scheme":"2",
+"steamid":"76561198382385215",
+"shared_secret":"4hrDQ\/OanHbgFO3bPXUFM\/OZ2N8=",
+"status":1,
+"revocation_code":"R44703",
+"secret_1":"OsOgvEJAoB7iiLPUVZ5L7CUf98E=",
+"server_time":"1492161237",
+"identity_secret":"AzSX8T4F0BKKjcoWDFjESLp7odE=",
+"uri":"otpauth:\/\/totp\/Steam:zxvchay1?secret=4INMGQ7TTKOHNYAU5XNT25IFGPZZTWG7&issuer=Steam",
+"token_gid":"36d7186bd739dd9",
+"serial_number":"6266610955291058725",
+"account_name":"zxvchay1"}
+
+
+-----------------------------------------------------------------------------------------------------
+
+[Steam Account 2 bot]
+yulianwy3
+Qwertyu123321@
+yibanboy123@gmail.com
++992905504043
+
+Мухаммад Dushanbe-Soft.tj, [24 нояб. 2020 г., 19:07:46]:
+Sign In
+
+Мухаммад Dushanbe-Soft.tj, [24 нояб. 2020 г., 19:07:46]:
+{"steamguard_scheme":"2",
+"steamid":"76561198380124511",
+"shared_secret":"6umuMTdgt1FzwA+IbkRRM0xOaV8=",
+"status":1,
+"revocation_code":"R94399",
+"secret_1":"D1XABuZ+8rTDBy0ulXPE3Zm9o9Q=",
+"server_time":"1492161486",
+"identity_secret":"5CE5Nf3BFZH2LqE\/6FaCS0utGgU=",
+"uri":"otpauth:\/\/totp\/Steam:yulianwy3?secret=5LU24MJXMC3VC46AB6EG4RCRGNGE42K7&issuer=Steam",
+"token_gid":"c317186bdb36d74",
+"serial_number":"11416457929799697089",
+"account_name":"yulianwy3"}
+
+1113861
+-----------------------------------------------------------------------------------------------------
+------------------------------------------
+Web Money:
+WMID: 709233137911
+Mukhammad123321@
+аттестационного сервиса под номером #147059822
+
+--------------------
+Для создание ботов:
+1. Создаем учетку в Steam.
+2. Через телефон подключаем SteamGuard и привязываем его в телефон.
+3. Удаляем Мобильный аутентификатор
+4. Через скрипт запускаем файл где прописан логин и пароль учетки стима.
+5. Получаем все данные как секрет и identity secret
+6. Далее обратно включаем мобилььный аутентификатор
+7. Пополним 5$ на данный акаунт
+8. Далее получаем API KEY пользователя "https://steamcommunity.com/dev/apikey"
+9. Ждем 15 дней для активации пользователя.
+10. Наслаждаем от созданного нами бота.
+
+988886161 
+340995
+http://www.megafon.tj/aktsii/vse-aktsii/samsung-galaxy-a-i-samsung-galaxy-j-2017/
+
+908828512
+
+
+-------------------------
+Задачи:
+1. Боты готовы - В процессе
+2. Создать в WebMoney Аттестат - Выполнено
+3. Перерегистрация номер 905504043 - Выполнено
+4. Регистрация G2PAY - ждем 3 дня  - в процессе.
+5. Сделать Электронную карту VisaCardClassic - Сегодня надо регистрировать. - В процессе - Выполнено
+6. Выделить домен - 10,10$  - Выполнено
+7. Выделить сервер - https://www.ovh.ie/dedicated_servers/infrastructure/160eg4.xml  100$
+
+
+2839672/NIC-D
+
+--------------------------------
+2domains.ru
+UrbanLex123@gmail.com
+UrbanLex123123
+
+MaxERL
+1374653317652
+
+-----------------------------------
+KAZKOM password
+5691594
+Mukhammad1234567890
+Кодовое слово:1374653317652
+Пароль 3d secure:
+Mather1963
+-------------------------------------
+Новая карта
+4578 6828 2955 7734
+Кодове слова: 1374653317652
+Пароль 3d secure:
+Mather.1963333
+Привет
+
+------------------------------------
+Facebook and Twitter
+UrbanLex123@gmail.com
+UrbanLex123321123
+
+------------------------------------
+support ironcard
+ironcardcs@gmail.com  
+ironcardcs123321@
+ -----
+
+908999674
+Ti+xyEyoUXAuPjGZnS7-$QatjFt-SonvKdg6rSt9y++Bb7kBZr?U5aBop~c5gC--
+05068398-9ff2-4281-b1c6-3d23fa783398
+
+-----------------------------
+Paypal
+UrbanLex123@gmail.com
+UrbanLex123@
+
+-----------------------------------
+ErbanLex@gmail.com
+ErbanLex123321@
+----------------------------------
+G2A ID
+ErbanLex@gmail.com
+Mega000@
+----------------------------------
+Github
+Mukhammad911
+Mega555
+
+@Mukhammad9111
+
+-------------------------------
+AIzaSyBULpoAq4dmzYMzLlmhl-bb8LcIXJr43WA
+-----------------------------------
+Apple id
+Login: develop.megafon@gmail.com
+Pass:  M74f0f36efc8e606f5910fef304c5d37
+
+
+4DE4D6368C96E87A4A6B58D7A4832352
+---------------------------------------
+Webmoney2
+684797537964
+901000535
+Mega098@
+Case Dragon Kush
+---------------------------------------
+
+Qiwi
++992905504043
+Mather.1963
+
+--------------------------------------
+Qiwi
++992901000535
+Mather1963
+---------------------------------------
+Имя профиль, Это почта без @ далее надо менять имя профиля
+??McMilan?
+
+Layount1PE
+Qwertyuiop123@.z
+
+R55167
+Почта UrbanLex123@gmail
+
+Дата регистрации: 01.05.2017
+---------------------------------------
+ 
+
+Layount2PE
+Qwertyuiop123@.a
+
+lj948119@gmail.com
+Asdfghjkl123321@
+
+R76010
+
+
+475168
+2017-07-24 03:23:05
+---------------------------------------
+Layount3TE
+Qwertyuiop123@.m
+
+R09666
+
+lj948119@gmail.com
+Asdfghjkl123321@
+-------------------------------------
+develop.megafon@gmail.com
+
+f74f0f36efc8e606f5910fef304c5d37
+
+-------------------------------------
+
+Учетка IOS
+develop.megafon@gmail.com
+
+Мухаммад Dushanbe-Soft.tj, [24 нояб. 2020 г., 19:07:46]:
+Code to connect people with Facebook for Developers. Explore AI, business tools, gaming, open source, publishing, social hardware, social integration, and virtual reality. Learn about Facebook’s global programs to educate and connect developers.
+
+Мухаммад Dushanbe-Soft.tj, [24 нояб. 2020 г., 19:07:46]:
+Atalassian Jira 
+Login: Mukhammad Yakubov
+Pass: Mega33333
+////////////////////////////////////
+Логин и пароль от babilon
+lte_992446900098
+mYjJdBuf
+////////////////////////////////////
+FaceBook тестовая учетка
+Muhammad.Yakubov911@gmail.com
+Mega33333
+Название приложение: UrbanLex's first app
+Номер тел: 992901000535
+ID прилоежения: 1837343783010406
+ССылка: https://developers.facebook.com
+
+/////////////////////////////////////
+https://www.facebook.com/khadamotimatbuot/videos/270719993781426/
+
+/////////////////////////////////////
+Почта dushanbesoft:
+dushanbesoft@gmail.com
+Mega33333
+/////////////////////////////////////
+get.tj
+Mukhammad
+Mega33333
+/////////////////////////////////////
+taobao.com
+alex137465331
+Mega33333
+/////////////////////////////////////
+easymarkets
+Muhammad.Yakubov91@gmail.com
+Mather.1963333
+/////////////////////////////////////
+///////////////////////////////////
+linkin
+mather.1963
+////////////////////////////////////
+9655
+8181
+//////////////////////////////////
+Для синхронизации между двумя серверами используем
+/usr/bin/rsync -avz /var/test -e ssh root@87.99.77.100:/var/test
+
+/usr/bin/rsync -avz /home/asterisk/var/spool/asterisk/monitor/talk -e ssh root@87.99.77.100:/home/jenkins/sites/callcenter.sunduk.tv/storage/app/audio
+
+/home/jenkins/sites/callcenter.sunduk.tv/storage/app/audio
+
+/home/asterisk/var/spool/asterisk/monitor/talk
+-////////////////////////////////////////////////////////////////////
+Установка ssh public private Bitbucket
+
+1. Создаем новые ключи на сервере
+
+ssh-keygen 
+
+-////////////////////////////////////////////////////
+csgotower jenkins
+
+password: csgotowerAdmin#2019rabbitmq
+admin :csgotowerAdmin#2019rabbitmq
+//////////////////////////////////////////
+Opskins recovery code: qFb77OiSVQ
+email: muhammad.yakubov91@gmail.com
+API KEY: b51f22ed4644a063caee613e764d30
+base64: YjUxZjIyZWQ0NjQ0YTA2M2NhZWU2MTNlNzY0ZDMwOg==
+
+{
+    "status": 1,
+    "time": 1559385227,
+    "response": {
+        "client": {
+            "client_id": "32b2f58cb693",
+            "name": "csgotowernet",
+            "redirect_uri": "http://localhost",
+            "time_created": 1559385226,
+            "has_secret": true
+        },
+        "secret": "dlHPQ4CwUm%pCGgcdIyh%l6fn^*PlmYB"
+    }
+}
+
+state=1234567&code=UYDiTyTrCkKT3ZR7
+
+0c94a5ca-0a4e-4390-9ed4-d5e0167f1ae2
+
+7eNo9aDyKtdnf98P8K-sziiHQk0
+--------------------------------------------------------
+Номер тел Олег
++37120434878
+------------------------
+RUVDS
+UrbanLex123@gmail.com
+Password: Mega333
+---------------------------------------------------------
+Телефони Тагои Абдулвохид
+907825687
+----------------------------------------------------------
+Payop
+Muhammad.Yakubov91@gmail.com
+Mega33333
+--------------------------------------------------------
+Paysera
+Muhammad.yakubov91@gmail.com
+Mega33333
+--------------------------------------------------------
+https://cab.osonsms.com/login
+dsoft
+user2020
+
+логин: ormon.tj
+пароль: ormon01042020
+
+------------------------------------------------------
+onlinepay.tj
+xontj
+Test#4321
+-------------------------------------------
+
+--------------------------------------------------
+online_pay
+ormon_web
+ormonAdmin#2019  
+---------------------------------------------
+https://cab.osonsms.com/login
+faradshop
+user2020
+
+//API farad shop
+SMS_LOGIN=faradshop
+SMS_HASH=d41d8cd98f00b204e9800998ecf8427e
+SMS_SENDER=FARAD
+SMS_SERVER=http://api.osonsms.com/sendsms_v1.php
+------------------------------------------------------
+
+eotE0iYqKX
+45.132.18.35
+
+
+php -r "if (hash_file('SHA384', 'composer-setup.php') === "544e09ee996cdf60ece3804abc52599c22b1f40f4323403c44d44fdfdd586475ca9813a858088ffbc1f233e9b180f061") { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+
+UrbanLex123@gmail.com
+mather.1963
+-------------------------------------
+https://market.dota2.net/ajax/price/all/all/all/1/1/0;100000/Inscribed%20Crystal%20Scavenger/all/all
+-------------------------
+Создать 10 ботов для Ironcard
+10 почта
+---------------------------
+----------1-----------
+Ganizani@protonmail.com
+Ganizani123@321
+--------------------------
+ganizani1
+EdBuUzjK1LJrmqmiREcf
+Код востановления: R85782
+--------------------------
+----------2------------
+MphoD@protonmail.com
+MphoD123@321
+---------------------------
+MphoD
+9qFdX0g6OBuXbppA4Uta
+Код востановления: R43934
+---------------------------
+---------3-----------------
+Jelani11@protonmail.com
+Jelani11123@321
+--------------------------
+jelani115
+idjCg2pkYSz58KlGGRoM
+Код востановления: R07565
+-----------------------------
+----------4------------------
+udo1@protonmail.com    (Не получилось)
+udo1123@321
+-----------------------
+udo139
+OCV55cZyEYEz4h57E6Ty
+Код востановления: R53465
+
+------------------------------
+--------------5----------------
+lunian1@protonmail.com
+lunian1123@321
+
+---------------------------------
+lunian11
+Mega123$
+Код востановления: R29718
+-----------------------------
+
+/opt/www/091-shop.megafon.tj/app/Http/Controllers/Crons/SmsToAdmin.php
+git clone Mukhammad.Yakubov:Qwertyu1@10.241.81.34:/opt/www/git_server_repository/lk_web.git 
+
+----------------------------------
+Godaddy 
+Pin код: 1374
+Логин:  UrbanLex123@gmail.com
+Пароль: UrbanLex123123
+
+----------------------------------
+CoinHive
+UrbanLex123@gmail.com
+Mather.1963
+glyEZhon3O99og2z9Lgc5pZMG29chRKn
+38SSg669L68Zc1pcDvfyL4biXbk4SViM
+
+
+Mega333
+
+*500*5#
+/////////////////////
+Monero
+apex laptop palace movement cynical yields yacht luxury hemlock vampire going palace jaws suitcase biplane army shuffled randomly exit biweekly solved september wade waveform wade
+Акучек - апаратт
+
+//Coinbase
+muhammad.yakubov91@gmail.com
+Mega333Mukhammad
+/////////////
+Blockchain.info
+Muhammad.Yakubov91@gmail.com  
+Mega333Mukhammad
+ID кошелька: 9280b37d-ed69-43e8-9031-e63d37130506
+
+//Ethereum blockcahin.info
+Адрес: 0x83B7c301A5358EcA7132567565896901c8bC0E2E
+
+Баланс: 0 ETH
+
+Личный ключ: 2e840698ae4ddac399337657db4349e59b360affd60f11cc18e3e8ed7ba1282e
+
+//Dogi Coin
+
+https://my.dogechain.info/#/wallet
+Login: Muhammad.Yakubov91@gmail.com
+Pass: Mather.1963333
+Wallet ID b5140c1b-7db4-4043-b1af-13e965740ecb
+
+Wallet DRgeuTrGnxACNTgJMagD3wTiLY1erpxNDp
+
+////////////////////PAYEER
+Ваш пароль: sY4rS44Y
+Секретное слово: 578391
+Имя акаунта: P84836520
+
+Логин: P84836520
+Пароль: sY4rS44Y
+E-mail: muhammad.yakubov911@gmail.com
+Секретное слово: 578391
+Master key: 041
+
+//////////////////////////////////
+Mukhammad911
+markmelloncrypto@gmail.com
+hH8cpDfMilDogeAdmin#2017Birja
+///////////////////////////////////
+
+markmelloncrypto@gmail.com
+hH8cpDfMilDogeAdmin#2017Birja
+///////////////////////////////////
+OVH:
+Muhammad.Yakubov91@gmail.com
+Mather.1963333
+////////////////////////////////////
+Реелтер
+917303536
+Хикматулло
+//////////////////////////////////////
+gmail.com
+spiderskinshelp@gmail.com
+spiderskinsAdmin#2017
+
+support@topcscard.net
+helpcscard@gmail.com
+
+topcscard.net
+cscard.org
+/////////////////////////////////////
+Skype
+helpcscard@gmail.com
+cscardAdmin#2017
+////////////////////////////////////
+Почта
+helpcscard@gmail.com
+cscardAdmin#2017
+/////////////////////////////////
+901080860
+ватсап
+////////////////////////////////////
+
+vk - для upwork.tj
+alex
+Mather.1963
+//////////////////////////////////
+Вопросы по Upwork:
+1. Завтра уже срок истекает, тк мы 10 дней сказали время больше уже нет у нас. Поэтому Нозим ты готов?
+2. Тоже самое вопрос Комилу
+3. По поводу проекта upwork (Надо сделать лого аналог Somon)
+4. По части админки осталось работа
+5. И все другие задачи которые стоять на очереди когда уже можем приcтупать работать.
+//////////////////////////////////
+
+Qwertyuiop123@.m
+Питер
+Программист
++---------------------------------
+THIS IS AN AUTOMATED MESSAGE GENERATED BY THE D&B CCR REGISTRATION PORTAL. PLEASE DO NOT REPLY TO THIS MESSAGE. 
+Thank you for your request for your company's existing DUNS Number.    
+
+Your D-U-N-S Number is 683516922
+for
+TT Mobile CJSC
+57 Rudaki avenue
+Dushanbe,
+TAJIKISTAN   
+If you have any questions about your DUNS Number, please contact us at govt@dnb.com. 
+
+ttmobile@megafon.tj
+------------------------------------
+G2A - 2 
+[E-mail]
+yibanboy123@gmail.com
+Mega123@.L
+
+-----------------------------------
+G2a  - 3
+lj948119@gmail.com
+Meg.lfdrs1S
+
+
+4890 4943 6233 8238
+
+-----------------------------------
+E-mail
+sukamr9@gmail.com
+XuyPidaraz1@.
+
+Steam 1
+
+siytrepix
+XuyPidaraz1@.
+
+sukamr9@gmail.com
++992901000877
+R21465
+
+Steam 2
+
+ryulik1
+Qwertyuiop123321@
+
+
+sukamr9@gmail.com
++992901000877
+R98203
+
+
+Steam 3
+
+ytirfvm
+Qwertyuiop123321@
+
+
+sukamr9@gmail.com
++992901000877
+R28464
+
+
+Steam 4 
+
+sunlian7
+Qwertyuiop123321@
+
+
+sukamr9@gmail.com
++992901000877
+R68557
+
+
+Steam 5
+
+ukinank
+Qwertyuiop123321@
+
+
+sukamr9@gmail.com
++992901000877
+R56558
+
+
+Steam 6
+
+dfiller3
+Qwertyuiop123321@
+
+
+sukamr9@gmail.com
++992901000877
+R28393
+------------------------------------------
+
+develop@megafon.tj
+Op#sQ9wae
+
+-----------------------------------------
+
+
+Добрый день, коллеги.
+Вопросы больше всего касается подсистемы SBMS  а именно скорость работы данной подсистемы.
+1. Для начало хотели узнать какая схема используется между всеми другими подсистемами SBMS, как Бекенды, фронтенты, зукипер, хас, апач,  и.т.д и с какими параметрами серверов (включая все резервы)
+2. Далее при открытие вкладки Вызовы, Расширенная история баланса, Начисления и Финансовая карточка, сколько времени уходит в процессе открытие этих вкладок.
+3. Также процесс регистрации нового клиента и процесс формирование заявление и договоров.(Сколько по времени занимает данные процессы).
+4. Также было бы лучше посмотреть наглядно все выше перечисленные процедуры.
+---------------------------------------
+oracle
+ muhammad.yakubov91@gmail.com
+ Mather.1963
+
+-------------------------------------------
+root   starbeast
+zmFBvVMTvPAEjIsAU4Pd
+
+-------------------------------------------
+Wunderlist
+Muhammad
+Muhammad.Yakubov91@gmail.com
+Mather.1963
+
+-----------------------------
+После всего анализа существующего сайта и движок на который поднять сайт, пришел к выводу что данный необходимо создать новый.
+Потому что после создание нового сайта:
+1. Скорость сайта увеличивается
+2. Интернет Магазин будет работать стабильно
+3. И по части безопасности и внедрение других проектов на базе основного сайта будет максимально безопасным.
+
+Для разработки данного проекта необходимо 4.5 месяца.
+ вкладка Частным Клиентам и Корпоративным клиентам – занимает по 1 месяцу а Часть Интернет Магазин занимает 1.5 месяца, также последняя часть это часть админа, т.е форма для администрирования занимает 1 месяц.
+select * from bypass_sheets where user_number = 51001317
+
+[2017-06-05 16:05:55] Абдуллоева Гулноза Сайдуллоевна: По собственному желанию  
+---------------------------------------------------------------
+G2pay my
+Muhammad.Yakubov911@gmail.com
+Mather.1963
+-------------------------------------------
+Cloudflare ironcard.net
+
+UrbanLex123@gmail.com
+mather.1963
+
+———————
+Payoneer
+Muhammad.Yakubov91@gmail.com
+Mather.1963
+
+6RFP6DF6
+
+Vahdat
+————————
+Пароль от моего фейсбука. facebook
+muhammad.911@mail.ru sufi.137465331
+ //////// - 
+
+
+
