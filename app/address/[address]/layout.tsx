@@ -192,7 +192,9 @@ function AddressLayoutInner({ children, params: { address } }: Props) {
     const infoParsed = info?.data?.data.parsed;
 
     const { data: fullTokenInfo, isLoading: isFullTokenInfoLoading } = useSWRImmutable(
-        infoStatus === FetchStatus.Fetched && infoParsed && isTokenProgramData(infoParsed) && pubkey ? ['get-full-token-info', address, cluster, url] : null,
+        infoStatus === FetchStatus.Fetched && infoParsed && isTokenProgramData(infoParsed) && pubkey
+            ? ['get-full-token-info', address, cluster, url]
+            : null,
         fetchFullTokenInfo
     );
 
@@ -207,13 +209,23 @@ function AddressLayoutInner({ children, params: { address } }: Props) {
         <div className="container mt-n3">
             <div className="header">
                 <div className="header-body">
-                    <AccountHeader address={address} account={info?.data} tokenInfo={fullTokenInfo} isTokenInfoLoading={isFullTokenInfoLoading} />
+                    <AccountHeader
+                        address={address}
+                        account={info?.data}
+                        tokenInfo={fullTokenInfo}
+                        isTokenInfoLoading={isFullTokenInfoLoading}
+                    />
                 </div>
             </div>
             {!pubkey ? (
                 <ErrorCard text={`Address "${address}" is not valid`} />
             ) : (
-                <DetailsSections info={info} pubkey={pubkey} tokenInfo={fullTokenInfo} isTokenInfoLoading={isFullTokenInfoLoading}>
+                <DetailsSections
+                    info={info}
+                    pubkey={pubkey}
+                    tokenInfo={fullTokenInfo}
+                    isTokenInfoLoading={isFullTokenInfoLoading}
+                >
                     {children}
                 </DetailsSections>
             )}
@@ -229,7 +241,17 @@ export default function AddressLayout({ children, params }: Props) {
     );
 }
 
-function AccountHeader({ address, account, tokenInfo, isTokenInfoLoading }: { address: string; account?: Account, tokenInfo?: FullTokenInfo, isTokenInfoLoading: boolean }) {
+function AccountHeader({
+    address,
+    account,
+    tokenInfo,
+    isTokenInfoLoading,
+}: {
+    address: string;
+    account?: Account;
+    tokenInfo?: FullTokenInfo;
+    isTokenInfoLoading: boolean;
+}) {
     const mintInfo = useMintAccountInfo(address);
 
     const parsedData = account?.data.parsed;
@@ -314,7 +336,7 @@ function DetailsSections({
     tab,
     info,
     tokenInfo,
-    isTokenInfoLoading
+    isTokenInfoLoading,
 }: {
     children: React.ReactNode;
     pubkey: PublicKey;
@@ -348,7 +370,7 @@ function DetailsSections({
     );
 }
 
-function InfoSection({ account, tokenInfo }: { account: Account, tokenInfo?: FullTokenInfo }) {
+function InfoSection({ account, tokenInfo }: { account: Account; tokenInfo?: FullTokenInfo }) {
     const parsedData = account.data.parsed;
     const rawData = account.data.raw;
 
@@ -467,12 +489,19 @@ function getTabs(pubkey: PublicKey, account: Account): TabComponent[] {
     }
 
     // Add the key for address lookup tables
-    if (account.data.raw && isAddressLookupTableAccount(account.owner.toBase58() as Base58EncodedAddress, account.data.raw)) {
+    if (
+        account.data.raw &&
+        isAddressLookupTableAccount(account.owner.toBase58() as Base58EncodedAddress, account.data.raw)
+    ) {
         tabs.push(...TABS_LOOKUP['address-lookup-table']);
     }
 
     // Add the key for Metaplex NFTs
-    if (parsedData && (programTypeKey === 'spl-token:mint' || programTypeKey == 'spl-token-2022:mint') && (parsedData as TokenProgramData).nftData) {
+    if (
+        parsedData &&
+        (programTypeKey === 'spl-token:mint' || programTypeKey == 'spl-token-2022:mint') &&
+        (parsedData as TokenProgramData).nftData
+    ) {
         tabs.push(...TABS_LOOKUP[`${programTypeKey}:metaplexNFT`]);
     }
 
@@ -497,11 +526,11 @@ function getTabs(pubkey: PublicKey, account: Account): TabComponent[] {
             slug: 'tokens',
             title: 'Tokens',
         });
-        tabs.push({
-            path: 'domains',
-            slug: 'domains',
-            title: 'Domains',
-        });
+        // tabs.push({
+        //     path: 'domains',
+        //     slug: 'domains',
+        //     title: 'Domains',
+        // });
     }
 
     if (account.owner.toBase58() === ACCOUNT_COMPRESSION_ID.toBase58()) {
