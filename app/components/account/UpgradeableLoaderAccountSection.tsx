@@ -88,7 +88,7 @@ export function UpgradeableProgramSection({
                     </tr>
                 )}
                 <tr>
-                    <td>Balance (BTC)</td>
+                    <td>Balance (HYPER)</td>
                     <td className="text-lg-end text-uppercase">
                         <SolBalance lamports={account.lamports} />
                     </td>
@@ -197,7 +197,7 @@ export function UpgradeableProgramDataSection({
                     </td>
                 </tr>
                 <tr>
-                    <td>Balance (BTC)</td>
+                    <td>Balance (HYPER)</td>
                     <td className="text-lg-end text-uppercase">
                         <SolBalance lamports={account.lamports} />
                     </td>
@@ -261,7 +261,7 @@ export function UpgradeableProgramBufferSection({
                     </td>
                 </tr>
                 <tr>
-                    <td>Balance (BTC)</td>
+                    <td>Balance (HYPER)</td>
                     <td className="text-lg-end text-uppercase">
                         <SolBalance lamports={account.lamports} />
                     </td>

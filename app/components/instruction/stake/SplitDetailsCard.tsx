@@ -54,7 +54,7 @@ export function SplitDetailsCard(props: {
             </tr>
 
             <tr>
-                <td>Split Amount (BTC)</td>
+                <td>Split Amount (HYPER)</td>
                 <td className="text-lg-end">
                     <SolBalance lamports={info.lamports} />
                 </td>

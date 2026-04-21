@@ -30,21 +30,21 @@ export function SupplyCard() {
 
             <TableCardBody>
                 <tr>
-                    <td className="w-100">Total Supply (BTC)</td>
+                    <td className="w-100">Total Supply (HYPER)</td>
                     <td className="text-lg-end">
                         <SolBalance lamports={supply.total} maximumFractionDigits={0} />
                     </td>
                 </tr>
 
                 <tr>
-                    <td className="w-100">Circulating Supply (BTC)</td>
+                    <td className="w-100">Circulating Supply (HYPER)</td>
                     <td className="text-lg-end">
                         <SolBalance lamports={supply.circulating} maximumFractionDigits={0} />
                     </td>
                 </tr>
 
                 <tr>
-                    <td className="w-100">Non-Circulating Supply (BTC)</td>
+                    <td className="w-100">Non-Circulating Supply (HYPER)</td>
                     <td className="text-lg-end">
                         <SolBalance lamports={supply.nonCirculating} maximumFractionDigits={0} />
                     </td>

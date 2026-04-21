@@ -473,7 +473,7 @@ function TokenAccountCard({ account, info }: { account: Account; info: TokenAcco
                 )}
                 {info.rentExemptReserve && (
                     <tr>
-                        <td>Rent-exempt reserve (BTC)</td>
+                        <td>Rent-exempt reserve (HYPER)</td>
                         <td className="text-lg-end">
                             <>
                                 ◎

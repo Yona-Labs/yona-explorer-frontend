@@ -47,7 +47,7 @@ export function TransferDetailsCard(props: {
             </tr>
 
             <tr>
-                <td>Transfer Amount (BTC)</td>
+                <td>Transfer Amount (HYPER)</td>
                 <td className="text-lg-end">
                     <SolBalance lamports={info.lamports} />
                 </td>

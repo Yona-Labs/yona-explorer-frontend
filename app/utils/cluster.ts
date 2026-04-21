@@ -31,12 +31,11 @@ export function clusterSlug(cluster: Cluster): string {
 export function clusterName(cluster: Cluster): string {
     switch (cluster) {
         case Cluster.MainnetBeta:
-            // return 'Mainnet Beta';
-            return 'Devnet';
+            return 'Mainnet';
         case Cluster.Testnet:
             return 'Testnet';
         case Cluster.Devnet:
-            return 'Devnet';
+            return 'Mainnet';
         case Cluster.Custom:
             return 'Custom';
     }

@@ -54,7 +54,7 @@ export function NonceWithdrawDetailsCard(props: {
             </tr>
 
             <tr>
-                <td>Withdraw Amount (BTC)</td>
+                <td>Withdraw Amount (HYPER)</td>
                 <td className="text-lg-end">
                     <SolBalance lamports={info.lamports} />
                 </td>
