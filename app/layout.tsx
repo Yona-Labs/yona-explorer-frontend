@@ -21,6 +21,15 @@ export const metadata: Metadata = {
     },
 };
 
+// Force every route to be server-rendered on demand.
+// Prevents Next.js from storing responses in the Full Route Cache with
+// `Cache-Control: s-maxage=31536000`, which gets poisoned by DigitalOcean's
+// Cloudflare layer (it ignores `Vary: RSC`) and causes RSC payloads to be
+// served as HTML documents.
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
+export const fetchCache = 'force-no-store';
+
 const rubikFont = Rubik({
     display: 'swap',
     subsets: ['latin'],
